@@ -65,9 +65,13 @@ img{
  background: white;
 
 } */
+.ok{
+  margin-left: 67px !important;
+}
+
 .link-1{
   color:white !important;
-  margin:0.2rem;
+  margin:0.4rem;
 }
 .link-1:hover{
   opacity: 1;
