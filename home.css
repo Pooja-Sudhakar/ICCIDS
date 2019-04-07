@@ -8,7 +8,14 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+/* #navbarSupportedContent{
+  align-content: center;
+} */
 .body {
   font-family: Roboto;
 }
@@ -16,7 +23,9 @@
 .center {
   text-align: center;
 }
-
+#homebtn{
+  margin-left: 20px;
+}
 .image {
   width: 15%;
 
@@ -176,7 +185,14 @@ a.hvr-shutter-out-vertical:hover {
   font-weight: 800;
 }
 
-
+@media(max-width:990px){
+  #homebtn{
+    margin: 0.4rem;
+  }
+  .link-1{
+    width:200px;
+  }
+}
 
 .container {
   width: 80%;
@@ -184,6 +200,8 @@ a.hvr-shutter-out-vertical:hover {
 
 .mdown {
   margin-top: 60px;
+  flex-grow: 1;
+
 }
 
 .flexita {
