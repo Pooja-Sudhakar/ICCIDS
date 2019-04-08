@@ -11,7 +11,7 @@
 body{
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  min-height: 100.1vh;
 }
 /* #navbarSupportedContent{
   align-content: center;
@@ -198,7 +198,7 @@ a.hvr-shutter-out-vertical:hover {
 }
 
 .container {
-  width: 80%;
+  width: 90%;
 }
 
 .mdown {
