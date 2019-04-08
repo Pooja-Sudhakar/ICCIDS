@@ -19,7 +19,9 @@ body{
 .body {
   font-family: Roboto;
 }
-
+.nav-item{
+  display: contents;
+}
 .center {
   text-align: center;
 }
@@ -107,12 +109,7 @@ img {
   margin: 0.4rem;
 }
 
-.link-1:hover {
-  opacity: 1;
-  border-top: 2px double white;
-  border-bottom: 2px double white;
 
-}
 
 a.hvr-shutter-out-vertical {
   color: white !important;
@@ -187,7 +184,14 @@ a.hvr-shutter-out-vertical:hover {
   color: white;
   font-weight: 800;
 }
-
+@media(min-width:992px){
+  .link-1:hover {
+    opacity: 1;
+    border-top: 2px double white;
+    border-bottom: 2px double white;
+  
+  }
+}
 @media(max-width:990px){
   #homebtn{
     margin: 0.4rem;
